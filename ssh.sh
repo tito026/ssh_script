@@ -3,5 +3,5 @@ while read  ipadd
 do
 #echo $ipadd
 export ipadd
-./enableint.sh $ipadd
-done < IP-list 
+./find.sh $ipadd
+done < ip-list
